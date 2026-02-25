@@ -6,7 +6,7 @@ from PIL import Image
 # Load trained model
 @st.cache_resource
 def load_my_model():
-    return load_model("vehicle_cnn_model.keras")
+    return load_model("final_model.keras")
 
 model = load_my_model()
 
